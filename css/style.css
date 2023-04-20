@@ -133,6 +133,23 @@ body {
     color: #404BBF;
 }
 
+/*FlexBox-Header*/
+
+.list {
+
+    display: flex;
+}
+
+.list .list-item:not(:last-child) {
+
+    margin-right: 40px;
+}
+
+.list .list-link {
+
+    display: block;
+}
+
 /*Hero section*/
 
 .hero-section {
