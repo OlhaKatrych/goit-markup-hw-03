@@ -15,6 +15,7 @@
     --color-grey: #2e2f42;
     --color-white: #ffffff;
     --color-dairy: #fcfcfc;
+    --hero-btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /*Hidden*/
@@ -225,14 +226,9 @@ body {
 
 .hero-container {
 
-    text-align: center;
-       
+    text-align: center;       
 }
 
-.hero-section {
-
-        
-}
 
 .hero-title {
 
@@ -265,6 +261,7 @@ body {
         padding: 16px 32px;
         border-radius: 4px;
         margin-bottom: 188px;
+        box-shadow: var(--hero-btn-shadow);
 }
 
 
