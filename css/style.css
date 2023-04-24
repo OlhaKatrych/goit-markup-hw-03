@@ -86,7 +86,14 @@ body {
  
  /*reset*/
 
- h1,h2,h3,h4,h5,h6,p {
+ .list {
+
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ h1,h2,h3,h4,h5,h6,p,ul {
 
     margin: 0;
  }
@@ -97,14 +104,6 @@ body {
 
 }
 
-
- 
- .list {
-
-    list-style: none;
-    padding: 0;
-    margin: 0;
- }
 
  .list-item {
 
@@ -158,31 +157,36 @@ body {
 
     display: flex;
     align-items: center;
-    width: 1128px;
+    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
     outline: 2px solid teal;
-   
+
 }
 
 .main-nav {
-
     display: flex;
+    align-items: center;
+    margin-right: auto;
 }
 
 .logo-container {
-
     display: flex;
-    align-items: center;
+    
+}
+
+
+
+.logo-studio {
+
+    margin-right: 76px;
 }
 
 .list {
-
     display: flex;
 }
 
 .list .list-item:not(:last-child) {
-
     margin-right: 40px;
 }
 
@@ -194,12 +198,10 @@ body {
 }
 
 .contacts {
-
     display: block;
 }
 
-.list .contacts-item + .contacts-item {
-
+.list .contacts-item+.contacts-item {
     margin-left: 40px;
 }
 
