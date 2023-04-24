@@ -16,6 +16,11 @@
     --color-white: #ffffff;
     --color-dairy: #fcfcfc;
     --hero-btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    /*Cards Set*/
+
+    --indent-features: 24px;
+    --items-features: 4;
 }
 
 /*Hidden*/
@@ -217,7 +222,6 @@ body {
 .hero-section {
     
     width: 1440px;
-    height: 600px;
     margin: 0 auto;
     outline: 2px solid teal;
     background-color: #2E2F42;
@@ -272,6 +276,17 @@ body {
 }
 
 /*Features section1*/
+
+.features-cards-set {
+
+    
+    gap: var(--indent-features);
+}
+
+.features-cards-item {
+
+    flex-basis: calc((100%-var(--indent-features)*(var(--items-features)-1))/var(--items-features));
+}
 
 .features-title {
 
