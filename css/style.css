@@ -19,8 +19,9 @@
 
     /*Cards Set*/
 
-    --indent-features: 24px;
+    --indent: 24px;
     --items-features: 4;
+    --items-images: 3;
 }
 
 /*Hidden*/
@@ -280,12 +281,12 @@ body {
 .features-cards-set {
 
     
-    gap: var(--indent-features);
+    gap: var(--indent);
 }
 
 .features-cards-item {
 
-    flex-basis: calc((100%-var(--indent-features)*(var(--items-features)-1))/var(--items-features));
+    flex-basis: calc((100%-var(--indent)*(var(--items-features)-1))/var(--items-features));
 }
 
 .features-title {
@@ -308,8 +309,15 @@ body {
 
 /*Images section2*/
 
+.images-list {
+
+justify-content: center;
+
+}
+
 .title-secondlevel {
 
+        
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -317,7 +325,17 @@ body {
         text-transform: capitalize;
         text-align: center;
         color: #2E2F42;
+        margin-bottom: 72px;
+       
 }
+
+.images-cards-set {
+
+    
+    gap: var(--indent);
+}
+
+
 
 /*Team section3*/
 
@@ -350,6 +368,11 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+
+.team-list {
+
+    justify-content: center;
 }
 
 /*Footer section*/
