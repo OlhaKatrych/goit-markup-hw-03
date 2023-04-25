@@ -259,6 +259,7 @@ body {
     width: 1440px;
     margin: 0 auto;
     background-color: #2E2F42;
+    padding: 188px 0;
 
 }
 
@@ -276,7 +277,6 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
-        padding-top: 188px;
         padding-bottom: 48px;
         padding-left: 472px;
         padding-right: 472px;
