@@ -372,7 +372,7 @@ justify-content: center;
     gap: var(--indent);
 }
 
-.images-cards-ite {
+.images-cards-item {
 
     flex-basis: calc((100% - 48px) / 3);
 }
