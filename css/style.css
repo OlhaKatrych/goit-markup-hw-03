@@ -20,6 +20,7 @@
     /*Cards Set*/
 
     --indent: 24px;
+    --vertical: 48px;
     --items-features: 4;
     --items-images: 3;
 }
@@ -169,7 +170,7 @@ body {
 
 .container {
 
-    display: flex;
+    display: block;
     align-items: center;
     width: 1158px;
     margin: 0 auto;
@@ -180,6 +181,7 @@ body {
 
 .header-container {
 
+    display: flex;
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -450,15 +452,35 @@ justify-content: center;
                                     /*PORTFOLIO*/
 
 .portfolio-btn {
+
+            font-family: Roboto, sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #4D5AE5;
+            background: #F4F4FD;
+            cursor: pointer;
+            padding: 12px 24px;
+            border: 1px solid #E7E9FC;
+            border-radius: 4px;
+            text-align: center;
+}
+
+.portfolio-btn-list{
+
+    justify-content: center;
+    margin-top: 96px;
+    margin-bottom: 72px;
+    gap: var(--indent);
         
-        font-family: Roboto, sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #4D5AE5;
-        background: #F4F4FD;
-        cursor: pointer;
+}
+
+.portfolio-cards{
+
+    flex-wrap: wrap;
+    row-gap: var(--vertical);
+    column-gap: var(--indent);
 }
 
 .portfolio-btn:hover {
