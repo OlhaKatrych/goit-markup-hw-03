@@ -255,10 +255,10 @@ body {
 
 .hero-section {
     
-    width: 1440px;
+    
     margin: 0 auto;
     background-color: #2E2F42;
-    padding: 188px 0;
+ 
 
 }
 
@@ -267,17 +267,17 @@ body {
 
 .hero-title {
 
-        display: flex;
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #FFFFFF;
-        padding-bottom: 48px;
-        padding-left: 472px;
-        padding-right: 472px;
-        max-width: 496px;
+    display: flex;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 48px;
+    max-width: 496px;
+    padding-top: 188px;
+    margin-left: 472px;
      
 }
 
