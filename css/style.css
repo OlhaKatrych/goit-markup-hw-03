@@ -430,6 +430,11 @@ justify-content: center;
     gap: var(--indent);
     border-radius: 0px 0px 4px 4px;
 }
+.woker-mark-guerrero {
+
+    padding: 32px 16px;
+}
+
 
 
 /*Footer section*/
