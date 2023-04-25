@@ -532,6 +532,7 @@ justify-content: center;
 
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-btn-list{
@@ -581,7 +582,7 @@ justify-content: center;
     color: #2E2F42;
     width: 290px;
     padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px
         
         
 }
@@ -592,5 +593,5 @@ justify-content: center;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        margin-bottom: 8px;
+        margin-bottom: 32px;
 }
