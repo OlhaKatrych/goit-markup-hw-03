@@ -167,6 +167,11 @@ body {
 
 /*FlexBox-Header*/
 
+.page-header {
+
+    border-bottom: 1px solid #E7E9FC;
+}
+
 .container {
 
     display: block;
