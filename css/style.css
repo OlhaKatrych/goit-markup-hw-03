@@ -394,7 +394,7 @@ justify-content: center;
 .team-item {
 
     background: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
+    
 
 }
 
@@ -428,6 +428,7 @@ justify-content: center;
    
     justify-content: center;
     gap: var(--indent);
+    border-radius: 0px 0px 4px 4px;
 }
 
 
