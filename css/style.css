@@ -453,22 +453,26 @@ justify-content: center;
 .footer-container {
 
     display: flex;
-    align-items:flex-start;
+    align-items: flex-start;
     flex-direction: column;
-    
-        padding: 0px;
+
+    padding: 0px;
+}
+.ink-display-inlineblock {
+
+    display: inline-block;
 }
 
 .link-position {
     
-    display: inline-block;
+    
     margin-top: 101.5px;
     margin-left: 156px;
     margin-bottom: 16px;
 }
 
 .logo-studio-footer {
-
+        
         font-family: 'Raleway';
         font-weight: 800;
         font-size: 18px;
@@ -525,7 +529,7 @@ justify-content: center;
 
  border: 1px solid transparent;
 
- 
+
 }
  
 
