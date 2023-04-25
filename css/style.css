@@ -462,9 +462,10 @@ justify-content: center;
 
 .link-position {
 
+    display: inline-block;
     margin-top: 101.5px;
     margin-left: 156px;
-    margin-bottom: 17.5px;
+    margin-bottom: 16px;
 }
 
 .logo-studio-footer {
