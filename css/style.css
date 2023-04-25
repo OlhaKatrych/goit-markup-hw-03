@@ -201,6 +201,11 @@ body {
     gap: 40px;
 }
 
+.header-nav-link {
+
+    gap: 40px;
+} 
+
 .logo-container {
     display: flex;    
 }
