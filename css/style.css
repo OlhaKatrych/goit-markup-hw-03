@@ -322,7 +322,7 @@ body {
 
 .features-cards-item {
 
-    flex-basis: calc((100%-var(--indent)*(var(--items-features)-1))/var(--items-features));
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .features-title {
@@ -333,6 +333,7 @@ body {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        margin-bottom: 8px;
 }
 
 .features-text {
