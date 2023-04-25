@@ -184,6 +184,10 @@ body {
 
 }
 
+.header-container {
+
+    display: flex;
+}
 
 .main-nav {
     display: flex;
