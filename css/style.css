@@ -184,11 +184,6 @@ body {
 
 }
 
-.header-container {
-
-    display: flex;
-
-}
 
 .main-nav {
     display: flex;
@@ -263,14 +258,12 @@ body {
 
 }
 
-.hero-container {
 
-    text-align: center;       
-}
 
 
 .hero-title {
 
+        display: flex;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -280,6 +273,7 @@ body {
         padding-bottom: 48px;
         padding-left: 472px;
         padding-right: 472px;
+        max-width: 496px;
      
 }
 
