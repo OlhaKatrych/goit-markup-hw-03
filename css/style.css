@@ -452,10 +452,9 @@ justify-content: center;
 
 .footer-container {
 
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-left: 156px;
     padding: 0px;
 }
 .ink-display-inlineblock {
@@ -463,11 +462,7 @@ justify-content: center;
     display: inline-block;
 }
 
-.link-position {
-    
-    display: inline-block;
-   
-}
+
 
 .logo-studio-footer {
         
