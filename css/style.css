@@ -528,6 +528,11 @@ justify-content: center;
 
 }
  
+.ontainer-reference {
+
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+}
 
 .portfolio-btn-list{
 
@@ -587,5 +592,5 @@ justify-content: center;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        margin-bottom: 32px;
+        margin-bottom: 8px;
 }
