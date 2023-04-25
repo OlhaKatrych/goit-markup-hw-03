@@ -174,8 +174,13 @@ body {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 2px solid teal;
+    
 
+}
+
+.header-container {
+
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .main-nav {
@@ -224,7 +229,6 @@ body {
     
     width: 1440px;
     margin: 0 auto;
-    outline: 2px solid teal;
     background-color: #2E2F42;
 
 }
@@ -358,6 +362,8 @@ justify-content: center;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        text-align: center;
+        padding-top: 32px;
 }
 
 .team-text {
@@ -368,18 +374,47 @@ justify-content: center;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 32px;
 }
 
 .team-list {
 
+   
     justify-content: center;
+    gap: var(--indent);
+}
+
+.team-item {
+
+    display: block;
 }
 
 /*Footer section*/
 
 .footer-section {
-
+    
+    width: 1440px;
+    margin: 0 auto;
     background: #2E2F42;
+    
+}
+
+.footer-container {
+
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    
+        padding: 0px;
+}
+
+.link-position {
+
+    margin-top: 101.5px;
+    margin-left: 156px;
+    margin-bottom: 17.5px;
 }
 
 .logo-studio-footer {
@@ -407,6 +442,9 @@ justify-content: center;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
+        margin-left: 156px;
+        margin-bottom: 100px;
+        width: 264px;
 }
 
                                     /*PORTFOLIO*/
