@@ -377,6 +377,11 @@ justify-content: center;
     flex-basis: calc((100% - 48px) / 3);
 }
 
+.team-cards-item {
+
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
 
 
 /*Team section3*/
