@@ -61,9 +61,13 @@ body {
     line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
     margin-right: 76px;
+    margin-top: 24px;
+    margin-bottom: 24px;
     color: var(--color-iris);
+    
     
 }
 
@@ -84,7 +88,6 @@ body {
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        text-decoration: none;
         text-transform: uppercase;
 }
 
@@ -177,7 +180,7 @@ body {
 
 .container {
 
-    display: block;
+    
     align-items: center;
     width: 1158px;
     margin: 0 auto;
@@ -192,20 +195,18 @@ body {
 }
 
 .main-nav {
+
     display: flex;
     align-items: center;
     margin-right: auto;
+  
+    
 }
 
 .header-nav-list {
 
     gap: 40px;
 }
-
-.header-nav-link {
-
-    gap: 40px;
-} 
 
 .contacts-email {
 
@@ -215,15 +216,6 @@ body {
 .contacts-phone{
 
     margin-right: 0;
-}
-
-.logo-container {
-    display: flex;    
-}
-
-.logo-studio {
-
-    margin-right: 76px;
 }
 
 .list {
@@ -239,21 +231,14 @@ body {
 .list .list-link {
 
     display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
 
 .contacts {
     display: block;
 }
 
-.list .contacts-item+.contacts-item {
-    margin-left: 40px;
-}
-
-
 /*Hero section*/
-
 
 .hero-section {
     
@@ -262,11 +247,7 @@ body {
     background-color: #2E2F42;
     padding: 188px 0;
  
-
 }
-
-
-
 
 .hero-title {
 
