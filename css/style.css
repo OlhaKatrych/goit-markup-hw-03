@@ -454,16 +454,15 @@ justify-content: center;
 
 .footer-container {
 
-    
     align-items: flex-start;
     flex-direction: column;
-
     padding: 0px;
+
 }
 
 .logo-studio-footer {
         
-        display: inline-block;
+        
         font-family: 'Raleway';
         font-weight: 800;
         font-size: 18px;
