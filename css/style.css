@@ -454,7 +454,7 @@ justify-content: center;
 
 .footer-container {
 
-    display: flex;
+    
     align-items: flex-start;
     flex-direction: column;
 
