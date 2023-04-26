@@ -462,22 +462,14 @@ justify-content: center;
 
 .logo-studio-footer {
 
-
-        display: inline-block;
         font-family: 'Raleway';
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         color: #F4F4FD;
-        text-decoration: none;
         text-transform: uppercase;
 
-}
-
-.variable-color-footer {
-
-    color: var(--color-cloud);
 }
 
 .footer-text {
