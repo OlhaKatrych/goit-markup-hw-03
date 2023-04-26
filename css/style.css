@@ -62,6 +62,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 16px;
+    margin-right: 76px;
     color: var(--color-iris);
     
 }
@@ -460,7 +461,9 @@ justify-content: center;
 }
 
 .logo-studio-footer {
-        
+
+
+        display: inline-block;
         font-family: 'Raleway';
         font-weight: 800;
         font-size: 18px;
@@ -469,9 +472,10 @@ justify-content: center;
         color: #F4F4FD;
         text-decoration: none;
         text-transform: uppercase;
+
 }
 
-.variable-color-foote {
+.variable-color-footer {
 
     color: var(--color-cloud);
 }
