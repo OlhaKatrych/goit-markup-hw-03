@@ -300,6 +300,7 @@ body {
 
 /*Features section1*/
 
+
 .features-cards-set {
 
     
@@ -332,7 +333,10 @@ body {
 
 /*Images section2*/
 
+.images-section {
 
+    padding-top: 0;
+}
 
 .images-list {
 
@@ -372,10 +376,10 @@ margin-bottom: 120px;
 
 
 .team-section {
-
-    background: #F4F4FD;
+    
     padding-top: 0;
-
+    background: #F4F4FD;
+    
 }
 
 
