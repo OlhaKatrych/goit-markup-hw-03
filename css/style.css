@@ -242,9 +242,10 @@ body {
 
 .hero-section {
     
-    
-    
+    width: 1440px;
+    margin: 0 auto;
     background-color: #2E2F42;
+   
     
 }
 
