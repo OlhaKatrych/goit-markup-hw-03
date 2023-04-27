@@ -66,6 +66,7 @@ body {
     margin-right: 76px;
     margin-top: 24px;
     margin-bottom: 24px;
+    padding: 24px 0;
     color: var(--color-iris);
     
     
@@ -206,6 +207,7 @@ body {
 .header-nav-list {
 
     gap: 40px;
+    padding: 24px 0;
 
 }
 
