@@ -52,7 +52,7 @@ body {
 
 /*Logo*/
 
-.logo-web {
+.logo {
 
     display: inline-block;
     font-family: Raleway, sans-serif;
@@ -66,16 +66,11 @@ body {
     margin-right: 76px;
     margin-top: 24px;
     margin-bottom: 24px;
+    padding: 24px 0;
     color: var(--color-iris);
     
     
 }
-
-.logo-container {
-
-    padding: 24px 0;
-}
-
 
 
 /*Sections*/
@@ -141,7 +136,8 @@ body {
 
 .list-link{
 
-    color: #2E2F42;;
+    color: #2E2F42;
+    padding: 24px 0;
 }
 
 .list-link:hover,
