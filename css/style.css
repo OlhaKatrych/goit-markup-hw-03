@@ -206,7 +206,7 @@ body {
 .header-nav-list {
 
     gap: 40px;
-    padding: 24px 0;
+
 }
 
 .contacts-email {
@@ -332,6 +332,11 @@ body {
 
 /*Images section2*/
 
+.images-section {
+
+    padding-top: 0;
+}
+
 .images-list {
 
 justify-content: center;
@@ -433,7 +438,7 @@ margin-bottom: 120px;
     
    
     background: #2E2F42;
-    padding: 100px 0
+    padding: 100 0;
     
 }
 
