@@ -65,7 +65,7 @@ body {
     padding-bottom: 1.5px;
     margin-right: 76px;
     margin-top: 24px;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
     color: var(--color-iris);
     
     
@@ -206,6 +206,7 @@ body {
 .header-nav-list {
 
     gap: 40px;
+    padding: 24px 0;
 }
 
 .contacts-email {
