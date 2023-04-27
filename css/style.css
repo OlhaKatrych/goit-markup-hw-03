@@ -427,12 +427,28 @@ margin-bottom: 120px;
 
 .footer-section {
     
-    width: 1440px;
-    margin: 0 auto;
+   
     background: #2E2F42;
     padding: 100px 0
     
 }
+
+.logo-footer {
+
+        display: inline-block;
+        font-family: Raleway, sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        padding-top: 1.5px;
+        padding-bottom: 1.5px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        color: var(--color-iris);
+}
+
 
 .logo-studio-footer {
         
