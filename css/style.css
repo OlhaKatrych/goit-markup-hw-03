@@ -262,7 +262,7 @@ body {
     margin: 0 auto;
     max-width: 496px;
     padding-top: 188px;
-    margin-bottom: 48px;
+    margin-bottom:48px;
      
 }
 
@@ -283,9 +283,8 @@ body {
         border-radius: 4px;
         margin-bottom: 188px;
         box-shadow: var(--hero-btn-shadow);
-        margin-left: 636px;
+        margin: 0 auto;
         min-width: 169px;
-        height: 56px;
         border: none;
 }
 
