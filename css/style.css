@@ -332,10 +332,7 @@ body {
 
 /*Images section2*/
 
-.images-section {
 
-    padding-top: 0;
-}
 
 .images-list {
 
@@ -377,7 +374,8 @@ margin-bottom: 120px;
 .team-section {
 
     background: #F4F4FD;
-    padding-bottom: 120px;
+    padding-top: 0;
+
 }
 
 
