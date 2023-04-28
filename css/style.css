@@ -377,7 +377,7 @@ margin-bottom: 120px;
 
 .team-section {
 
-    
+    padding-bottom: 120px;
     background: #F4F4FD;
     
 }
@@ -529,16 +529,18 @@ margin-bottom: 120px;
     column-gap: var(--indent);
 }
 
-.portfolio-btn:hover {
+.portfolio-btn:hover{
 
     background: #404BBF;
     color: #FFFFFF;
+    border: 1px solid transparent;
 }
 
-.portfolio-btn:focus {
+.portfolio-btn:focus{
  
     background: #404BBF;
     color: #ffffff;
+    border: 1px solid transparent;
 }
 
 .portfolio-pics {
