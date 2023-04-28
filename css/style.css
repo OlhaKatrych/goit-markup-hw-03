@@ -335,6 +335,7 @@ body {
 .images-section {
 
     padding-top: 0;
+    padding-bottom: 0;
 }
 
 .images-list {
@@ -439,7 +440,7 @@ margin-bottom: 120px;
     
    
     background: #2E2F42;
-    padding: 0;
+    padding: 100 0;
     
 }
 
@@ -506,13 +507,6 @@ margin-bottom: 120px;
             text-align: center;
 }
 
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-
- border: 1px solid transparent;
-
-
-}
  
 .container-reference {
 
@@ -538,6 +532,7 @@ margin-bottom: 120px;
 
 .portfolio-btn:hover {
 
+    background: #404BBF;
     color: #FFFFFF;
 }
 
