@@ -335,13 +335,12 @@ body {
 .images-section {
 
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 120px;
 }
 
 .images-list {
 
 justify-content: center;
-margin-bottom: 120px;
 
 }
 
@@ -377,7 +376,7 @@ margin-bottom: 120px;
 
 .team-section {
 
-    padding-bottom: 120px;
+    
     background: #F4F4FD;
     
 }
